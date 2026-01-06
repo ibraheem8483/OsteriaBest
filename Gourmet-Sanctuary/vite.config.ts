@@ -3,11 +3,11 @@ import react from "@vitejs/plugin-react";
 import path from "path";
 
 export default defineConfig({
-  base: './',
+  base: './',               // relative paths for assets
+  root: "client",           // points to the folder containing index.html
   plugins: [react()],
-  root: "client",
   build: {
-    outDir: "../dist/public",
+    outDir: "../dist/public",  // output folder relative to repo root
     emptyOutDir: true
   },
   resolve: {
