@@ -4,10 +4,10 @@ import path from "path";
 
 export default defineConfig({
   base: './',               // relative paths for assets
-  root: "client",           // points to the folder containing index.html
+  root: "client",           // folder containing index.html
   plugins: [react()],
   build: {
-    outDir: "../dist/public",  // output folder relative to repo root
+    outDir: "../dist/public",  // output relative to repo root
     emptyOutDir: true
   },
   resolve: {
