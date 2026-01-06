@@ -1,0 +1,186 @@
+Build a **high-end, luxury restaurant website** for an upscale Italian restaurant called **Osteria**.
+This is a **production-quality demo**, not a toy project.
+
+### Restaurant Details (use consistently across the site)
+
+* Name: **Osteria**
+* Type: Upscale Italian restaurant
+* Rating: **4.8 stars (278 reviews)**
+* Address: **Chueifat Road, New Cairo 1, Cairo Governorate 11865**
+* Located in: **Square One**
+* Phone: **011 03991537**
+* Hours: **Open daily, closes at 1:00 AM**
+* Services: Dine-in, curbside pickup
+* Vibe: Elegant, modern, premium, calm luxury (not flashy)
+
+---
+
+## TECH & STRUCTURE REQUIREMENTS
+
+* Use **React + modern frontend stack** (Next.js preferred if possible).
+* Styling should feel **luxurious**: neutral colors (black, off-white, warm gray), elegant typography, generous spacing.
+* Mobile-first, fully responsive.
+* Clean, minimal animations (subtle fades, hover states).
+* No unnecessary complexity.
+* Organize code cleanly by pages and components.
+* No placeholder text like “Lorem ipsum.”
+
+---
+
+## REQUIRED PAGES (MULTI-PAGE SITE)
+
+### 1. **Home Page**
+
+Purpose: Create desire + trust + action.
+
+**Hero Section**
+
+* Full-width hero with dark overlay
+* Restaurant name “Osteria”
+* Short tagline (e.g. “Authentic Italian Dining in the Heart of New Cairo”)
+* Primary CTA button: **Reserve a Table**
+* Secondary CTA: **View Menu**
+
+**About Section**
+
+* Short, elegant paragraph describing Osteria:
+
+  * Authentic Italian cuisine
+  * Premium ingredients
+  * Refined dining experience
+  * Ideal for dinners, dates, and special occasions
+
+**Highlights / Why Osteria**
+
+* 3–4 cards or columns:
+
+  * Authentic Italian recipes
+  * Premium ambiance
+  * Highly rated (4.8★, 278 reviews)
+  * Open late (until 1 AM)
+
+**Location & Hours**
+
+* Address clearly displayed
+* Embedded Google Map (or placeholder container ready for map)
+* Opening hours
+
+**Call to Action Section**
+
+* Reinforce booking
+* Button linking to Reservations page
+
+**Footer**
+
+* Restaurant name
+* Address
+* Phone number
+* Opening hours
+* Simple copyright text
+
+---
+
+### 2. **Menu Page**
+
+Purpose: Showcase food clearly and elegantly.
+
+**Menu Structure**
+Divide menu into sections such as:
+
+* Starters
+* Pasta
+* Pizza
+* Main Courses
+* Desserts
+* Beverages
+
+Each item should have:
+
+* Dish name
+* Short description
+* Optional price field (can be placeholder like “—”)
+
+Design:
+
+* Clean typography
+* Plenty of white space
+* No clutter
+* Looks like a premium printed menu adapted for web
+
+Add a subtle note:
+
+> “Menu items may vary based on seasonal availability.”
+
+CTA at bottom:
+
+* “Reserve a Table”
+
+---
+
+### 3. **Reservations / Booking Page**
+
+Purpose: Convert visitors into bookings.
+
+**Reservation Form**
+Include fields:
+
+* Full Name
+* Phone Number
+* Email (optional)
+* Date
+* Time
+* Number of Guests
+* Special Requests (optional text area)
+
+**Behavior**
+
+* On submit:
+
+  * Prevent page reload
+  * Show confirmation message:
+
+    > “Thank you! Your reservation request has been received. We will confirm shortly.”
+* Structure the form so it can easily connect later to:
+
+  * Webhooks
+  * Automation tools
+  * WhatsApp / email confirmations
+
+**Design**
+
+* Calm, premium look
+* Centered form
+* No distractions
+
+---
+
+## NAVIGATION
+
+* Top navigation bar with:
+
+  * Home
+  * Menu
+  * Reservations
+* Sticky or semi-transparent navbar on scroll
+* Mobile hamburger menu
+
+---
+
+## QUALITY EXPECTATIONS
+
+* The site should look like something used by a **real upscale restaurant in New Cairo**.
+* No childish colors.
+* No stock-looking SaaS layout.
+* Prioritize elegance, simplicity, and clarity.
+* Code should be readable and extendable (future chatbot, booking automation, analytics).
+
+---
+
+## IMPORTANT
+
+* This is **not** a blog, not an e-commerce site.
+* Do **not** add ads, popups, or unnecessary features.
+* Do **not** ask follow-up questions.
+* Just generate the full website structure and code.
+
+Generate the complete project accordingly.
